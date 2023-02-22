@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  11 FEB 2023 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  23 FEB 2023 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,6 +309,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+<Proteus Simulation.png, id=1, 959.83594pt x 528.47438pt>
+File: Proteus Simulation.png Graphic file (type png)
+<use Proteus Simulation.png>
+Package pdftex.def Info: Proteus Simulation.png  used on input line 57.
+(pdftex.def)             Requested size: 239.95839pt x 132.11827pt.
+ [1{C:/Users/istya/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+ <./Proteus Simulation.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -320,28 +329,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/istya/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+[2
 
-
-]
-(Smart Bike Parking Zone.aux) ) 
+] (Smart Bike Parking Zone.aux) ) 
 Here is how much of TeX's memory you used:
- 4152 strings out of 475385
- 66385 string characters out of 2776907
- 421267 words of memory out of 3000000
- 25521 multiletter control sequences out of 15000+600000
+ 4161 strings out of 475385
+ 66661 string characters out of 2776907
+ 421275 words of memory out of 3000000
+ 25528 multiletter control sequences out of 15000+600000
  498626 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,62p,1101b,266s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/istya/AppData/Local/Programs/MiKTeX/fo
-nts/enc/dvips/base/8r.enc}<C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmb8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmbi8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/times/utmr8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on "Smart Bike Parking Zone.pdf" (1 page, 59234 bytes).
+{C:/Users/istya/AppData/Local/Programs/MiKTeX/
+fonts/enc/dvips/base/8r.enc}<C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmb8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmbi8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/font
+s/type1/urw/times/utmr8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on "Smart Bike Parking Zone.pdf" (2 pages, 179183 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
