@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  17 MAR 2023 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  17 MAR 2023 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,12 +302,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -319,9 +319,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Proteus Simulation.png, id=10, 959.83594pt x 528.47438pt>
 File: Proteus Simulation.png Graphic file (type png)
 <use Proteus Simulation.png>
-Package pdftex.def Info: Proteus Simulation.png  used on input line 92.
+Package pdftex.def Info: Proteus Simulation.png  used on input line 87.
 (pdftex.def)             Requested size: 239.95839pt x 132.11827pt.
- [2 <./Proteus Simulation.png>] [3]
+ [2 <./Proteus Simulation.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -334,24 +334,22 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 
-! LaTeX Error: \begin{itemize} on input line 134 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 129 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.191 \end{document}
+l.172 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4
-
-] (Smart Bike Parking Zone.aux) )
+[3] (Smart Bike Parking Zone.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 134 (\begingroup)
+### semi simple group (level 1) entered at line 129 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  4196 strings out of 476374
@@ -360,7 +358,7 @@ Here is how much of TeX's memory you used:
  24558 multiletter control sequences out of 15000+600000
  544460 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,62p,1102b,289s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,62p,1102b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base
 /8r.enc}<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
@@ -368,9 +366,9 @@ tmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
 i8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a
 .pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on "Smart Bike Parking Zone.pdf" (4 pages, 201322 bytes).
+Output written on "Smart Bike Parking Zone.pdf" (3 pages, 199737 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
