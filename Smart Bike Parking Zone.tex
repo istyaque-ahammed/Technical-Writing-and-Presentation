@@ -41,7 +41,7 @@
 	
 	\section{Introduction}
 
-	The Arduino Uno based smart bike parking zone is a project that aims to create a more efficient and convenient system for parking bikes. The project utilizes the Arduino Uno microcontroller to control the movement of bikes in and out of the parking lot, as well as to monitor the availability of parking spaces. 
+	The Arduino Uno based smart bike parking zone is a project that aims to create a more efficient and convenient system for parking bikes. The project utilizes the Arduino Uno micro-controller to control the movement of bikes in and out of the parking lot, as well as to monitor the availability of parking spaces. 
 	The Arduino Uno based smart bike parking zone is a project that aims to create a more efficient and convenient system for parking bikes. The project utilizes the Arduino Uno micro-controller to control the movement of bikes in and out of the parking lot, as well as to monitor the availability of parking spaces. 
 	\section{Related Work}
 	In recent years, there has been a growing need for efficient and smart parking solutions, especially in densely populated cities. The issue of finding a parking spot is a major concern for bike riders and can often lead to traffic congestion, parking violations, and even accidents. To address this issue, several studies have been conducted to develop smart parking systems that can efficiently manage the parking spaces.
@@ -57,7 +57,8 @@
 	\section{MATERIALS AND METHODS}
 	
 
-	\subsection{Hardware Components: We will use these hardware items in this project, which is given below.}
+	\subsection{Hardware Components:}
+	 We will use these hardware items in this project, which is given below.
 	
 	\begin{itemize}
 	\item Arduino Uno micro-controller
@@ -75,29 +76,30 @@ The hardware working of the Smart Bike Parking Zone can be described as follows:
 \end{itemize}
 
 
-	\subsection{Software Components: We will use these software items in this project, which is given below.}	
+	\subsection{Software Components:}
+	 We will use these software items in this project, which is given below.	
 	\begin{itemize}
 		\item Arduino IDE
 		\item C programming language
 		\item Serial communication protocols
 	\end{itemize}
 
-The ultrasonic sensors are used to detect the presence of motorcycles in the parking spots and provide the information to the Arduino Uno microcontroller. The LED lights are used to indicate the availability of parking spots, with green lights indicating available spots and red lights indicating occupied spots.
+The ultrasonic sensors are used to detect the presence of motorcycles in the parking spots and provide the information to the Arduino Uno micro-controller. The LED lights are used to indicate the availability of parking spots, with green lights indicating available spots and red lights indicating occupied spots.
 \begin{figure}[htbp]
 	\centerline{\includegraphics[scale=0.25]{Proteus Simulation.png}}
 	\caption{Proteus Simulation}
 	\label{fig}
 \end{figure}
 
-The Arduino Uno microcontroller is programmed using the Arduino IDE and C programming language to read the sensor data and control the LED lights. The microcontroller communicates with the user interface through serial communication protocols.
+The Arduino Uno microcontroller is programmed using the Arduino IDE and C programming language to read the sensor data and control the LED lights. The micro-controller communicates with the user interface through serial communication protocols.
 
 The user interface is developed using a web-based platform that allows motorcycle riders to locate available parking spots and parking administrators to manage the parking spots remotely.
 	\subsection{System Architecture:}
-	The smart motorcycle parking zone using Arduino Uno system consists of two primary components: the hardware and software components. The hardware components include the ultrasonic sensors, LED lights, breadboard, and Arduino Uno microcontroller. The software components consist of the Arduino IDE, C programming language.\cite{b7}
+	The smart motorcycle parking zone using Arduino Uno system consists of two primary components: the hardware and software components. The hardware components include the ultrasonic sensors, LED lights, breadboard, and Arduino Uno micro-controller. The software components consist of the Arduino IDE, C programming language.\cite{b7}
 
 	To connect the hardware components of an Arduino Uno based Smart Bike Parking Zone, we can follow the following procedure:
-	
-		1. Connect the Ultrasonic Sensor:
+	\begin{itemize}
+		\item Connect the Ultrasonic Sensor:
 	\begin{itemize}
 	
 		\item Connect the VCC pin of the Ultrasonic Sensor to the 5V pin of the Arduino Uno board.
@@ -105,7 +107,7 @@ The user interface is developed using a web-based platform that allows motorcycl
 		\item Connect the TRIG pin of the Ultrasonic Sensor to pin 7 of the Arduino Uno board.
 		\item Connect the ECHO pin of the Ultrasonic Sensor to pin 6 of the Arduino Uno board.
 	\end{itemize}
-		2. Connect the LED display:
+		\item Connect the LED display:
 \begin{itemize}
 	
 	\item Connect the VCC pin of the LED display to the 5V pin of the Arduino Uno board.
@@ -113,21 +115,23 @@ The user interface is developed using a web-based platform that allows motorcycl
 	\item Connect the data pins of the LED display to digital pins of the Arduino Uno board, depending on the type of display you are using.
 
 \end{itemize}
-	3. Connect the Buzzer:
+	\item Connect the Buzzer:
 \begin{itemize}
 	
 	\item Connect the VCC pin of the Buzzer to the 5V pin of the Arduino Uno board.
 	\item Connect the GND pin of the Buzzer to the GND pin of the Arduino Uno board.
 	\item Connect the signal pin of the Buzzer to a digital pin of the Arduino Uno board.	
 \end{itemize}
-	4. Connect the power supply:
+	\item Connect the power supply:
 \begin{itemize}	
 	\item Connect a 9V battery or a 5V power supply to the power jack of the Arduino Uno board.	
 \end{itemize}
-We have connected all the hardware components, we can write the Arduino code to control the components and upload it to the Arduino Uno board. We can then test the circuit by placing a bike in the parking zone and observing the LED/LCD display and buzzer to see if they indicate whether the parking spot is available or occupied.	
-	\subsection {Working Procedure: A smart bike parking system using Arduino Uno can be implemented using the following working procedure}
+\end{itemize}
+We have connected all the hardware components. We can write the Arduino code to control the components and upload it to the Arduino Uno board. We can test the circuit by placing a bike in the parking zone and observing the LED/LCD display and buzzer to see if they indicate whether the parking spot is available or occupied.	
+	\subsection {Working Procedure:}
+	 A smart bike parking system using Arduino Uno can be implemented using the following working procedure
 	\begin{itemize}
-		\item Set up the hardware: I will need an Arduino Uno board, an ultrasonic sensor, a motorcycle driver, a DC motor, and a battery. Connect the ultrasonic sensor and motorcycle driver to the Arduino Uno board as per the instructions provided in the datasheet.
+		\item Set up the hardware: We need an Arduino Uno board, an ultrasonic sensor, a motorcycle driver, a DC motor, and a battery. Connect the ultrasonic sensor and motorcycle driver to the Arduino Uno board as per the instructions provided in the data-sheet.
 		\item Write the code: Write the Arduino code to control the motor driver based on the input received from the ultrasonic sensor. The code should detect the distance between the motorcycle and the parking slot and control the motor to move the bike into the parking slot.
 		\item Calibrate the ultrasonic sensor: Calibrate the ultrasonic sensor to ensure that it provides accurate distance measurements. Place the ultrasonic sensor at a fixed distance from a wall and use the readings to determine the scaling factor for the sensor.
 		\item Test the system: Test the system to ensure that it works as expected. Place a motorcycle in front of the parking slot and check if the system detects the motorcycle and moves it into the slot automatically.
@@ -135,26 +139,33 @@ We have connected all the hardware components, we can write the Arduino code to 
 		
 			Overall, the working procedure for a smart bike parking system using Arduino Uno involves setting up the hardware, writing the code, calibrating the ultrasonic sensor, testing the system, and adding a user interface. With this system in place, cyclists can park their bikes easily and safely without worrying about theft or damage.
 
-			
+		\end{itemize}
+	
 	\subsection{Data Analysis:}
 Data analysis is performed on the parking usage data collected from the system to provide insights into the parking behavior of motorcycle riders. The data is analyzed using statistical methods to identify patterns and trends in parking usage, which can be used to inform future improvements in the system.
 	\subsection{Experimental Setup:}
-	The experimental setup for the smart motorcycle parking zone using Arduino Uno system consists of a parking zone with ultrasonic sensors installed in each parking spot, an Arduino Uno microcontroller, and LED lights to indicate parking availability. The system is tested using a group of volunteers to simulate real-world usage scenarios, and data is collected on parking behavior and system performance.
+	The experimental setup for the smart motorcycle parking zone using Arduino Uno system consists of a parking zone with ultrasonic sensors installed in each parking spot, an Arduino Uno micro-controller, and LED lights to indicate parking availability. The system is tested using a group of volunteers to simulate real-world usage scenarios, and data is collected on parking behavior and system performance.
 	
 	\subsection{Experimental Results:}
-	The experimental results of an Arduino-based smart bike parking zone project provide valuable insights into the system's performance and effectiveness in addressing the increasing demand for bike parking infrastructure in urban areas. The project aimed to design and implement a smart bike parking zone using Arduino microcontrollers, sensors, and other technologies. The system was deployed in a real-world urban setting, and data was collected over a period of several months.
+	The experimental results of an Arduino-based smart bike parking zone project provide valuable insights into the system's performance and effectiveness in addressing the increasing demand for bike parking infrastructure in urban areas. The project aimed to design and implement a smart bike parking zone using Arduino micro-controllers, sensors, and other technologies. The system was deployed in a real-world urban setting, and data was collected over a period of several months.
 	
 	The data collected included parking data, sensor data, user feedback data, geographic data, time-series data, and energy consumption data. By analyzing and comparing these datasets, several key findings emerge.n recent years, there has been growing interest in using smart technologies like the Arduino-based smart bike parking zone to improve urban mobility and sustainability. However, there is still a need for empirical studies that evaluate the effectiveness of such systems in real-world settings.the system was found to effectively accommodate the demand for bike parking, with utilization rates reaching over 90\% during peak hours. Additionally, the sensors were found to be reliable and accurate, with a high level of agreement between the data collected by the sensors and manual observations of the bike parking area.\cite{b5}
 	
 	 Here are some potential datasets that could be collected and compared:
 	 
 	 	\begin{itemize}
-	 	\item Parking data vs. capacity: By comparing the number of bikes parked in the system to the system's capacity, you can determine whether the system is effectively accommodating the demand for bike parking.
-	 	\item Sensor data vs. manual observations: By comparing the data collected from the sensors to manual observations of the bike parking area, you can evaluate the accuracy and reliability of the sensors.
-	 	\item User feedback data vs. parking data: By comparing feedback from cyclists to the parking data collected by the system, you can determine whether the system is meeting the needs and expectations of its users.
-	 	\item Geographic data vs. usage patterns: By analyzing geographic data, such as the location of the bike parking zone and surrounding infrastructure, and comparing it to usage patterns, you can identify areas where additional bike parking infrastructure may be needed.\cite{b6}
-	 	\item Time-series data vs. system modifications: By analyzing usage patterns over time and comparing them to modifications made to the system, you can evaluate the effectiveness of these modifications in meeting the needs of cyclists. 	
-	 	\item Energy consumption data vs. system efficiency: By comparing the amount of energy consumed by the system to the system's performance, you can identify opportunities to improve the system's energy efficiency.
+	 	\item Parking data vs. capacity: 
+	 	By comparing the number of bikes parked in the system to the system's capacity, you can determine whether the system is effectively accommodating the demand for bike parking.
+	 	\item Sensor data vs. manual observations: 
+	 	By comparing the data collected from the sensors to manual observations of the bike parking area, you can evaluate the accuracy and reliability of the sensors.
+	 	\item User feedback data vs. parking data: 
+	 	By comparing feedback from cyclists to the parking data collected by the system, you can determine whether the system is meeting the needs and expectations of its users.
+	 	\item Geographic data vs. usage patterns: 
+	 	By analyzing geographic data, such as the location of the bike parking zone and surrounding infrastructure, and comparing it to usage patterns, you can identify areas where additional bike parking infrastructure may be needed.\cite{b6}
+	 	\item Time-series data vs. system modifications: 
+	 	By analyzing usage patterns over time and comparing them to modifications made to the system, you can evaluate the effectiveness of these modifications in meeting the needs of cyclists. 	
+	 	\item Energy consumption data vs. system efficiency:
+	 	By comparing the amount of energy consumed by the system to the system's performance, you can identify opportunities to improve the system's energy efficiency.
 	 \end{itemize}
 	 
 

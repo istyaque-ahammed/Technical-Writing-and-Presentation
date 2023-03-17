@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  17 MAR 2023 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  17 MAR 2023 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,12 +309,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
  (C:\Users\istya\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
 
 
 (C:\Users\istya\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -327,7 +327,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Proteus Simulation.png, id=10, 959.83594pt x 528.47438pt>
 File: Proteus Simulation.png Graphic file (type png)
 <use Proteus Simulation.png>
-Package pdftex.def Info: Proteus Simulation.png  used on input line 87.
+Package pdftex.def Info: Proteus Simulation.png  used on input line 89.
 (pdftex.def)             Requested size: 239.95839pt x 132.11827pt.
  [2 <./Proteus Simulation.png>]
 
@@ -341,24 +341,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-
-! LaTeX Error: \begin{itemize} on input line 129 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[3] (Smart Bike Parking Zone.aux) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 129 (\begingroup)
-### bottom level 
+[3] (Smart Bike Parking Zone.aux) ) 
 Here is how much of TeX's memory you used:
  4195 strings out of 475385
  67233 string characters out of 2776907
@@ -367,14 +350,14 @@ Here is how much of TeX's memory you used:
  501432 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,62p,1102b,266s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/b
-ase/8r.enc}<C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/times/utmb8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/times/utmbi8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/type1/u
-rw/times/utmr8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on "Smart Bike Parking Zone.pdf" (3 pages, 199740 bytes).
+{C:/Users/istya/AppData/Local/Programs/MiKTe
+X/fonts/enc/dvips/base/8r.enc}<C:/Users/istya/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/istya/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/istya/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/istya/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/istya/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Smart Bike Parking Zone.pdf" (3 pages, 199373 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
