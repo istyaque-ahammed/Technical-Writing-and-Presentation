@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  5 APR 2023 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  5 APR 2023 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,7 +352,7 @@ Here is how much of TeX's memory you used:
  25551 multiletter control sequences out of 15000+600000
  501432 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,1271b,273s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,8n,62p,1273b,273s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/istya/AppData/Local/Programs/MiKTeX/
 fonts/enc/dvips/base/8r.enc}<C:/Users/istya/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/istya/AppData/Local/Programs/MiKT
@@ -360,7 +360,7 @@ eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/istya/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/istya/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/istya/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Smart Bike Parking Zone.pdf" (4 pages, 203738 bytes).
+Output written on "Smart Bike Parking Zone.pdf" (4 pages, 203461 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
